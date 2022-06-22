@@ -1,6 +1,6 @@
 var express = require('express')
 var router = express.Router();
-var Movie = require('./Models/movie.js')
+var Movie = require('./Models/movie')
 
 router.get("/movies",async(req,res)=>{
     const iMovie = await
