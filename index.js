@@ -11,7 +11,7 @@ mongoose.connect("mongodb+srv://viraj123:V3915791@cluster0.w1sz0.mongodb.net/Stu
     app.use(express.json())
     app.use('/api',router)
 
-    app.listen(process.env.PORT,()=>{
+    app.listen(3000,()=>{
         console.log("Server Started.");
     })
 }).catch((err)=>{
